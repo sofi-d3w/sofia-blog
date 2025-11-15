@@ -202,3 +202,12 @@ header {
         margin-right: auto;
     }
 }
+
+.end__site {
+    background-color: #ccf2ff;
+    width: 100%;
+    height: 100px;
+    color: #0052cc;
+    padding: 15px;
+    text-align: center;
+}

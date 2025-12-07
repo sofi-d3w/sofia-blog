@@ -27,6 +27,13 @@ header {
     margin-right: 20px;
 }
 
+@media (max-width:768px) {
+    .header-menu {
+        gap: 20px;
+    }
+}
+
+
 .header-menu a {
     font-size: 18px;
     font-weight: 500;
@@ -210,4 +217,55 @@ header {
     color: #0052cc;
     padding: 15px;
     text-align: center;
+}
+
+.short {
+    display: flex;
+    margin: 30px auto;
+    max-width: 900px;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.information-short {
+    margin: 15px 0;
+}
+
+
+.short a {
+    background: #2196e9;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #fffefe;
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+}
+
+.big {
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.big h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media (max-width:768px) {
+    .short {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .short img {
+        width: 100%;
+    }
+
+    .short a {
+        margin: 0 auto;
+    }
 }

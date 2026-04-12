@@ -26,7 +26,7 @@ new_post.innerHTML = `
                     <span>
                        ${first_article.date}
                     </span>
-                    <a href="/blog?${first_article.link}">Переглянути</a>
+                    <a href="/blog/article.html?${first_article.link}">Переглянути</a>
                 </div>
             </div>
 `
@@ -37,8 +37,8 @@ popular.innerHTML = `      <h2>
             <div class="popular__list">
 
 
-                </a> <a href="/blog?${second_article.link}" class="popular__card">
-                    <img src="?${second_article.photo}" alt="${second_article.text}">
+                </a> <a href="/blog/article.html?${second_article.link}" class="popular__card">
+                    <img src="${second_article.photo}" alt="${second_article.title}">
                     <span class="popular__card-title">
                        ${second_article.title}
                     </span>
@@ -49,8 +49,8 @@ popular.innerHTML = `      <h2>
                     </span>
 
                 </a>
-                <a href="/blog?${third_article.link}" class="popular__card">
-                    <img src="${third_article.photo}" alt="${third_article.text}">
+                <a href="/blog/article.html?${third_article.link}" class="popular__card">
+                    <img src="${third_article.photo}" alt="${third_article.title}">
                     <span class="popular__card-title">
                         ${third_article.title}
                     </span>
@@ -61,8 +61,8 @@ popular.innerHTML = `      <h2>
                     </span>
 
                 </a>
-                <a href="/blog?${fourth_article.link}" class="popular__card">
-                    <img src="${fourth_article.photo}" alt="${fourth_article.text}">
+                <a href="/blog/article.html?${fourth_article.link}" class="popular__card">
+                    <img src="${fourth_article.photo}" alt="${fourth_article.title}">
                     <span class="popular__card-title">
                         ${fourth_article.title}
 

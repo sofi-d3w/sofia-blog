@@ -153,6 +153,9 @@ header {
     width: 100%;
     display: block;
     border-radius: 6px;
+    height: 220px;
+    object-fit: contain;
+    background: white;
 }
 
 .popular__list {
